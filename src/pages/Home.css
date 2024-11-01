@@ -1,0 +1,298 @@
+/* Common styles */
+.HomePage {
+  width: 100%;
+  padding: 0;
+  position: relative; 
+}
+
+.homeImg {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-image: url('../assets/flex.jpg');
+  background-repeat: no-repeat;
+  padding-left: 4%;
+  padding-top: 30%;
+}
+
+.homeImg button {
+  color: white;
+  width: 150px;
+  background-color: transparent;
+  height: 40px;
+  font-weight: bold;
+  font-size: x-small;
+  border-radius:20px;
+  border: 4px solid white;
+  transition: all 0.3s ease-in-out;
+}
+
+.homeImg button:hover {
+  background-color: white;
+  color: blue;
+}
+
+
+.Features {
+  background-color: #1687a7; 
+  padding: 50px 0;
+  text-align: center;
+  
+}
+
+.Features-heading {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.Features-subheading {
+  color: #cae8fc;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.Features-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px; 
+}
+
+
+.Feature-card {
+  background-color: #cae8fc;
+  border-radius: 30px;
+  width: 250px; /* Fixed width */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* 3D shadow */
+}
+
+.Feature-card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); 
+}
+
+.Feature-icon {
+  font-size: 3rem;
+  color: #1687a7;
+  margin-bottom: 15px;
+}
+
+.Feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.Feature-card p {
+  color: #666;
+  font-size: 1rem;
+}
+/* Existing styles ... */
+
+.hiw-head{
+  padding-top: 50px;
+  text-align: center;
+  color: #1687a7;
+}
+
+.hiw-create{
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+.hiw-create:hover{
+  transform: scale(1.02);
+}
+.hiw-create-right{
+  width: 50%;
+  align-items: center;
+  display: flex;
+}
+.hiw-create-right h3{
+  font-weight: bold;
+  color: #1687a7;
+  transition: all 0.3s ease-in-out;
+}
+.hiw-create-right h3:hover{
+  color: #162ca7;
+}
+.hiw-create-left{
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+.hiw-create-left-cir{
+  width: 155px;
+  align-items: center;
+  height: 155px;
+  background-color: #1687a7;
+  border: none;
+  border-radius: 100px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.hiw-create-left-cir:hover{
+  box-shadow: 2px 2px 2px 2px gainsboro;
+}
+
+/* hiw2 */
+.hiw-create2{
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+.hiw-create2:hover{
+  transform: scale(1.02);
+}
+.hiw-create-right2{
+  width: 50%;
+  align-items: center;
+  display: flex;
+}
+.hiw-create-right2 h3{
+  font-weight: bold;
+  color: #1687a7;
+  transition: all 0.3s ease-in-out;
+}
+.hiw-create-right2 h3:hover{
+  color: #162ca7;
+}
+.hiw-create-left2{
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: right;
+}
+.hiw-create-left-cir2{
+  width: 155px;
+  align-items: center;
+  height: 155px;
+  background-color: #1687a7;
+  border: none;
+  border-radius: 100px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+
+}
+.hiw-create-left-cir2:hover{
+  box-shadow: 2px 2px 2px 2px gainsboro;
+}
+
+
+/* Mobile Devices */
+.homeImgM {
+  width: 100%;
+  height: 36vh;
+  background-size: cover;
+  background-image: url('../assets/flex.jpg');
+  background-repeat: no-repeat;
+}
+
+.homeImgM button {
+  color: white;
+  width: 150px;
+  background-color: transparent;
+  height: 40px;
+  font-weight: bold;
+  font-size: x-small;
+  border-radius:20px;
+  border: 4px solid white;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(25vh) translateX(60%);
+}
+
+.homeImgM button:hover {
+  background-color: white;
+  color: blue;
+}
+.FeaturesM {
+  background-color: #1687a7; 
+  text-align: center;
+  padding-top: 20px;
+}
+
+.Features-headingM {
+  color: white;
+  font-size: 2.0rem;
+  margin-bottom: 10px;
+}
+
+.Features-subheadingM {
+  color: #cae8fc;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.Features-containerM {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 20px;
+}
+.Feature-cardM {
+  background-color: #cae8fc;
+  border-radius: 30px;
+  width: 250px; /* Fixed width */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* 3D shadow */
+}
+
+.Feature-cardM:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); 
+}
+
+.Feature-iconM {
+  font-size: 3rem;
+  color: #1687a7;
+  margin-bottom: 15px;
+}
+
+.Feature-cardM h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.Feature-cardM p {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+
+.hiw-createM{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.hiw-createM:hover{
+  transform: scale(1.1);
+}
+
+.hiw-create-cirM{
+  width: 100px;
+  align-items: center;
+  height: 100px;
+  background-color: #1687a7;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.hiw-create-left-cir:hover{
+  box-shadow: 2px 2px 2px 2px gainsboro;
+}
